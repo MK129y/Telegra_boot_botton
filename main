@@ -26,8 +26,8 @@ def get_info(message):
     itemp1_yes = ty.InlineKeyboardButton(text='Да', callback_data='yes_1')
     itemp2_no = ty.InlineKeyboardButton(text='No', callback_data='no_1')
     itemp3_yes = ty.InlineKeyboardButton(text='Надор подумать', callback_data='yes_2')
-    itemp4_yes = ty.InlineKeyboardButton(text='Можешь спросить у меня дадададад', callback_data='yes_3')
-    itemp5_yes = ty.InlineKeyboardButton(text='Можешь спросить у меня дадададаffffffffffffд', callback_data='yes_4')
+    itemp4_yes = ty.InlineKeyboardButton(text='Да нет)', callback_data='yes_3')
+    itemp5_yes = ty.InlineKeyboardButton(text='Можешь спросить у меня), callback_data='yes_4')
     markup_inline.add(itemp1_yes, itemp2_no, itemp3_yes, itemp4_yes, itemp5_yes)
     bot_one.send_message(message.chat.id,'Хотите задать вопрос?', reply_markup = markup_inline) #текстом и ниже кнопки перечисленные вверху
         
